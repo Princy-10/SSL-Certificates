@@ -1,0 +1,3 @@
+
+## For requestng SSL certificate (server.key{pvt file } and .csr file)   >..>>> This will be in a new directory for security purpose 
+openssl req -new -newkey rsa:2048 -nodes -keyout abc.com.key -out abc.com.csr
